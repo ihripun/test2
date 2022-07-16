@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="#" class="form">
+            <div class="form-head">
+                <a href="index.html" class="form-back"><</a>
+                <h3 class="form-title">Заявка  на вступление</h3>
+            </div>
+            <div class="form-body">
+                <fieldset class="form-fieldset">
+                    <legend class="form-legend">Ваш никнейм в реальной жизни :)</legend>
+                    <input type="text" name="name" placeholder="имя" id="" class="form-name">
+                    <input type="text" name="surname" placeholder="фамилия" id="" class="form-name">
+                </fieldset>
+                
+                <div class="form-floor">
+                    <p class="form-text">Ваш пол </p>
+                    <input type="radio" name="gender"  class="check-box"  id="men"> 
+                    <label for="men" class="form-label">М</label>
+                     <!-- записать  -->
+                    <input type="radio" name="gender" class="check-box" id="girl">
+                    <label for="girl" class="form-label">Ж </label> 
+                    
+                 </div>
+                 <div class="form-floor">
+                     <input type="checkbox" name="yers" id="yers" class="check-yers">
+                     <label for="yers" class="form-label" >Мне есть 18</label>
+                 </div>
+                 <div class="form-floor">
+                    <label for="select" class="form-label">Ваша дисциплина</label>
+                    <select name="select" id="select">
+                        <!-- записать  -->
+                        <option value="CS:GO">CS:GO</option>
+                        <option value="DOTA2">DOTA2</option>
+                        <option value="APEX">APEX</option>
+                    </select>
+                 </div>
+                 <div class="form-floor">
+                    <textarea name="meseng" class="meseng" placeholder="дополнительная информация"></textarea>
+                     <!-- записать  -->
+                 </div>
+                 <button type="submit" class="form-button"> 
+                    Отправить Заявку
+                </button>
+            </div>
+           
+           
+            
+        </form>
+    </div>
+</body>
+</html>
